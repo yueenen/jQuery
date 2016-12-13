@@ -4,11 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title> 你不会的原因是想的太多，写得太少。</title>
-    <script src="jquery.js"></script>
+    <style>
+        body {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        ul {
+            text-align: center;
+            position: relative;
+        }
+
+        li {
+            position: absolute;
+        }
+    </style>
+    <script src="js/jquery.js"></script>
 </head>
 <body>
+    <ul>
+        <li class="active"><a href="#"><img src="images/1.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/2.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/3.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/4.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/5.jpg" alt=""></a></li>
+    </ul>
     <script>
-        $.createElement("table");
+        var index = 0;
+        setInterval(function () {
+            $("li").eq(index).show().siblings().hide();
+            index++;
+            if (index == 5) {
+                index = 0;
+            }
+        }, 1000)
     </script>
 </body>
 </html>
