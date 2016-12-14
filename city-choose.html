@@ -42,7 +42,9 @@
         <button id="btn-back"> &lt; </button>
     </div>
     <select id="tar-city" multiple></select>
-    <script>
+
+    <!--
+    <script>//方法一
         $("button").eq(0).click(function () {
             $("#tar-city").append($("#src-city option"));
         });
@@ -53,6 +55,22 @@
             $("#tar-city").append($("#src-city option:selected"));
         });
         $("button").eq(3).click(function () {
+            $("#src-city").append($("#tar-city option:selected"));
+        });
+    </script>
+    -->
+
+    <script>
+        $("#btn-sel-all").click(function () {
+            $("#tar-city").append($("#src-city option"));
+        });
+        $("#btn-sel-none").click(function () {
+            $("#src-city").append($("#tar-city option"));
+        });
+        $("#btn-sel").click(function () {
+            $("#tar-city").append($("#src-city option:selected"));
+        });
+        $("#btn-back").click(function () {
             $("#src-city").append($("#tar-city option:selected"));
         });
     </script>
