@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4930e5-e2a7-4e0e-8399-c5dc6e73e8ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/images/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/images/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/images/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/images/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/images/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/images/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/207.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bottom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-filter/y-index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-开机动画.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/city-choose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/slider.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="jQuery-demo.iws" />
@@ -24,42 +40,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="slider.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slider.html">
+      <file leaf-file-name="demo-开机动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-开机动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="481">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city-choose.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/city-choose.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-              <folding>
-                <element signature="e#895#899#0" expanded="true" />
-                <element signature="e#899#903#0" expanded="true" />
-                <element signature="e#949#953#0" expanded="true" />
-                <element signature="e#953#957#0" expanded="true" />
-                <element signature="e#998#1002#0" expanded="true" />
-                <element signature="e#1043#1047#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="140">
+                <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-filter/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="y-index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-filter/y-index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +101,9 @@
         <option value="$PROJECT_DIR$/slider.html" />
         <option value="$PROJECT_DIR$/js/city-choose.html" />
         <option value="$PROJECT_DIR$/city-choose.html" />
+        <option value="$PROJECT_DIR$/demo-开机动画.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/demo-filter/y-index.html" />
       </list>
     </option>
   </component>
@@ -93,10 +114,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="-1144" />
-    <option name="width" value="1468" />
-    <option name="height" value="1144" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -151,7 +170,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="demo-filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -168,10 +205,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.9.1/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -247,18 +286,18 @@
       <option name="presentableId" value="Default" />
       <updated>1481644412713</updated>
       <workItem from="1481644414001" duration="3283000" />
-      <workItem from="1481717718983" duration="3818000" />
+      <workItem from="1481717718983" duration="9939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7101000" />
+    <option name="totallyTimeSpent" value="13222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="-1144" width="1468" height="1144" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32697546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -300,6 +339,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/694746075/QQ/Temp.db/CEA9938C-98A3-4C8B-A93B-BDA6493C1641.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city-choose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/slider.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -308,34 +360,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city-choose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-          <folding>
-            <element signature="e#895#899#0" expanded="true" />
-            <element signature="e#899#903#0" expanded="true" />
-            <element signature="e#949#953#0" expanded="true" />
-            <element signature="e#953#957#0" expanded="true" />
-            <element signature="e#998#1002#0" expanded="true" />
-            <element signature="e#1043#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/694746075/QQ/Temp.db/CEA9938C-98A3-4C8B-A93B-BDA6493C1641.png">
+    <entry file="file://$PROJECT_DIR$/images/6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/top.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-开机动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <first_editor relative-caret-position="140">
+            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-filter/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-filter/y-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
