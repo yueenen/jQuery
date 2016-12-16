@@ -1,0 +1,110 @@
+<!--Created by yueenen on 12/15/16 21:59.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 你不会的原因是想的太多，写得太少。</title>
+    <script src="../js/jquery.js"></script>
+    <style>
+        *{
+            padding: 0;
+            bottom: 0;
+            border: none;
+        }
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+
+        th {
+            background: darkcyan;
+            color: #ffffff;
+            line-height: 40px;
+        }
+
+        tr, td {
+            border: 1px solid #000000;
+        }
+
+        th,td {
+            padding: 10px;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            background: deeppink;
+            outline: none;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        var data = [
+            {
+                name: "清华大学",
+                url: "http://www.tsinghua.edu.cn/",
+                type: "中国理科最强大学"
+            },
+            {
+                name: "北京大学",
+                url: "http://www.pku.edu.cn/",
+                type: "中国文科最强大学"
+            },
+            {
+                name: "蓝翔技校",
+                url: "http://www.lxjx.cn/",
+                type: "中国挖掘机培训最强"
+            }
+        ];
+        $(function () {
+            $("button").click(function () {
+                for (var i = 0; i < data.length; i++) {
+                    var d = data[i];
+                    var $tr = $("<tr><td>" +d.name+
+                            "</td> <td>" +d.url+
+                            "</td><td>" +d.type+
+                            "</td></tr>");
+                    $("table").append($tr);
+                    var $delBtn = $("<td><a href='#'>删除</a></td>");
+                    $tr.append($delBtn);
+                    $delBtn.find("a").click(function () {
+                        //console.log($(this));
+                        //$(this).parent().parent().remove();//直接父级元素
+                        $(this).parents("tr").remove();//所有父级元素
+                    });
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+    <button>点击获取数据</button>
+    <table>
+        <tr>
+            <th>标题</th>
+            <th>地址</th>
+            <th>说明</th>
+            <th>操作</th>
+        </tr>
+       <!--
+        <tr>
+            <td>清华大学</td>
+            <td>http://www.pku.edu.cn/</td>
+            <td>中国理科最强大学</td>
+        </tr>
+        <tr>
+            <td>清华大学</td>
+            <td>http://www.pku.edu.cn/</td>
+            <td>中国理科最强大学</td>
+        </tr>
+        <tr>
+            <td>清华大学</td>
+            <td>http://www.pku.edu.cn/</td>
+            <td>中国理科最强大学</td>
+        </tr>
+       -->
+    </table>
+</body>
+</html>
+
