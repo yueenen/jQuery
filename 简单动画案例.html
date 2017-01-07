@@ -1,0 +1,38 @@
+<!--Created by yueenen on 17/1/7 11:43.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 你不会的原因是想的太多，写得太少。</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: deeppink;
+            position: absolute;
+        }
+    </style>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function () {
+            $("div").animate({
+                "width":"300px",
+                "height":"100px",
+                "top":"300px",
+                "color":"#ffffff",
+                "backgroundColor":"yellow"
+            },2000,"swing",function () {
+                $("div").animate({
+                    "width":"200px",
+                    "height":"200px",
+                    "top":"0px",
+                    "left":"500px"
+                },1000,"swing")
+            })
+        })
+    </script>
+</head>
+<body>
+    <div>sss</div>
+</body>
+</html>
